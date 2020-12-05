@@ -87,18 +87,7 @@
         @click="runCode">
         Run
       </el-button>
-      <el-button
-        v-if="!inIframe"
-        :icon="editorStatus === 'saving' ? 'el-icon-loading' : 'el-icon-upload2'"
-        size="mini"
-        plain
-        :disabled="editorStatus === 'saving'"
-        :title="saveButtonTitle"
-        v-tippy="{position: 'bottom'}"
-        class="home-header-right-item"
-        @click="saveGist">
-        Save
-      </el-button>
+
       <el-dropdown
         v-if="!inIframe"
         class="home-header-right-item home-header-more"
@@ -110,54 +99,8 @@
           {{ isLoggedIn ? username : '' }}
         </el-button>
         <el-dropdown-menu slot="dropdown">
-          <el-dropdown-item>
-            <el-button
-              v-if="!inIframe"
-              :icon="editorStatus === 'saving' ? 'el-icon-loading' : 'el-icon-upload2'"
-              size="mini"
-              plain
-              :disabled="editorStatus === 'saving'"
-              :title="saveButtonTitle"
-              v-tippy="{position: 'bottom'}"
-              @click="saveGist">
-              Save
-            </el-button>
-          </el-dropdown-item>
-          <el-dropdown-item>
-            <el-button
-              :icon="iframeStatusIcon"
-              size="mini"
-              :type="iframeStatus === 'error' ? 'danger' : 'primary'"
-              plain
-              @click="runCode">
-              Run
-            </el-button>
-          </el-dropdown-item>
-          <el-dropdown-item>
-            <el-checkbox
-              border
-              size="mini"
-              :value="autoRun"
-              v-if="!inIframe"
-              @change="setAutoRun">
-              Auto-run
-            </el-checkbox>
-          </el-dropdown-item>
-          <el-dropdown-item command="github-login">
-            <div class="fake-anchor">
-              <log-out-icon v-if="githubToken" />
-              <github-icon v-else /> GitHub {{ githubToken ? 'Logout' : 'Login' }}
-            </div>
-          </el-dropdown-item>
-          <el-dropdown-item
-            :disabled="editorStatus === 'saving'"
-            command="save-new-gist"
-            title="Create a new gist from editor"
-            v-tippy="{position: 'left',arrow: true}"
-            v-if="canUpdateGist">
-            <div class="fake-anchor">
-              <git-branch-icon></git-branch-icon> Save new
-            </div>
+          <el-dropdown-item style="padding: 0;">
+            <a class="el-dropdown-menu__item fake-anchor" target="_blank" href="https://www.homecodeclass.com"><link2-icon></link2-icon> HomeCodeClass</a>
           </el-dropdown-item>
           <el-dropdown-item style="padding: 0;">
             <a class="el-dropdown-menu__item fake-anchor" target="_blank" href="https://github.com/jcadcell/codepan"><link2-icon></link2-icon> Source Code</a>

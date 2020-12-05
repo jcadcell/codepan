@@ -33,10 +33,6 @@
       <console-pan class="pan" v-show="isVisible('console')" />
       <output-pan class="pan" v-show="isVisible('output')" />
     </div>
-
-    <div ref="sponsor" class="sponsor">
-      <a href="https://www.homecodeclass.com" target="_blank" rel="noopener nofollow">💻 HomeCodeClass.com</a>
-    </div>
   </div>
 </template>
 
