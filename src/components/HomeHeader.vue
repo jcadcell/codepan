@@ -17,12 +17,11 @@
           <el-dropdown-item command="react">React</el-dropdown-item>
           <el-dropdown-item command="preact">Preact</el-dropdown-item>
           <el-dropdown-item command="rxjs">RxJS</el-dropdown-item>
-          <el-dropdown-item command="hyperapp">Hyperapp</el-dropdown-item>
-          <el-dropdown-item command="es-import">ES import</el-dropdown-item>
           <el-dropdown-item command="rust">Rust</el-dropdown-item>
           <el-dropdown-item command="pixi">Pixi</el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
+      <!--
       <el-button
         v-if="!inIframe"
         class="home-header-left-item"
@@ -32,6 +31,7 @@
         size="mini">
         Add library
       </el-button>
+      -->
       <span class="home-header-left-item changelog-indicator"></span>
     </div>
     <div class="home-header-middle home-header-block pan-toggles">
@@ -160,16 +160,16 @@
             </div>
           </el-dropdown-item>
           <el-dropdown-item style="padding: 0;">
-            <a class="el-dropdown-menu__item fake-anchor" target="_blank" href="https://github.com/egoist/codepan"><link2-icon></link2-icon> Source Code</a>
+            <a class="el-dropdown-menu__item fake-anchor" target="_blank" href="https://github.com/jcadcell/codepan"><link2-icon></link2-icon> Source Code</a>
           </el-dropdown-item>
           <el-dropdown-item style="padding: 0;">
-            <a class="el-dropdown-menu__item fake-anchor" target="_blank" href="https://twitter.com/_egoistlily"><twitter-icon></twitter-icon> Follow me on Twitter</a>
+            <a class="el-dropdown-menu__item fake-anchor" target="_blank" href="https://www.facebook.com/HomeCodeClass/"><facebook-icon></facebook-icon> Facebook</a>
           </el-dropdown-item>
           <el-dropdown-item style="padding: 0;">
             <a
               target="_blank"
               class="el-dropdown-menu__item fake-anchor"
-              :href="`https://github.com/egoist/codepan/commit/${latestCommit}`">
+              :href="`https://github.com/jcadcell/codepan/commit/${latestCommit}`">
               <info-icon></info-icon>
               {{ version }}
             </a>
@@ -201,7 +201,8 @@
     GitBranchIcon,
     Link2Icon,
     SaveIcon,
-    TwitterIcon,
+    //TwitterIcon,
+    FacebookIcon,
     LogOutIcon,
     InfoIcon
   } from 'vue-feather-icons'
@@ -352,7 +353,8 @@
       GitBranchIcon,
       Link2Icon,
       SaveIcon,
-      TwitterIcon,
+      //TwitterIcon,
+      FacebookIcon,
       SvgIcon,
       LogOutIcon,
       InfoIcon

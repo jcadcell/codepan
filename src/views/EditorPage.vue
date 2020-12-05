@@ -35,7 +35,7 @@
     </div>
 
     <div ref="sponsor" class="sponsor">
-      <a href="https://github.com/sponsors/egoist" target="_blank" rel="noopener nofollow">❤️ Sponsor me on GitHub to support the rewrite of CodePan!</a>
+      <a href="https://www.homecodeclass.com" target="_blank" rel="noopener nofollow">💻 HomeCodeClass.com</a>
     </div>
   </div>
 </template>
