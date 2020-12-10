@@ -12,6 +12,7 @@
         </el-button>
         <el-dropdown-menu slot="dropdown">
           <el-dropdown-item command="empty">Empty</el-dropdown-item>
+          <el-dropdown-item command="js">JavaScript</el-dropdown-item>
           <el-dropdown-item command="vue">Vue</el-dropdown-item>
           <el-dropdown-item command="vue-jsx">Vue JSX</el-dropdown-item>
           <el-dropdown-item command="react">React</el-dropdown-item>
@@ -103,7 +104,7 @@
             <a class="el-dropdown-menu__item fake-anchor" target="_blank" href="https://www.homecodeclass.com"><link2-icon></link2-icon> HomeCodeClass</a>
           </el-dropdown-item>
           <el-dropdown-item style="padding: 0;">
-            <a class="el-dropdown-menu__item fake-anchor" target="_blank" href="https://github.com/jcadcell/codepan"><link2-icon></link2-icon> Source Code</a>
+            <a class="el-dropdown-menu__item fake-anchor" target="_blank" href="https://github.com/jcadcell/codepan"><github-icon></github-icon> Source Code</a>
           </el-dropdown-item>
           <el-dropdown-item style="padding: 0;">
             <a class="el-dropdown-menu__item fake-anchor" target="_blank" href="https://www.facebook.com/HomeCodeClass/"><facebook-icon></facebook-icon> Facebook</a>
