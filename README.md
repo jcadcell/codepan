@@ -4,15 +4,27 @@ Editor for JS/CSS/HTML - also works [offline](https://github.com/NekR/offline-pl
 
 ## Development
 
-Clone this repository and install dependencies by running `yarn`, then:
+### Install
+
+Install dependencies by running `yarn`, then:
 
 - `yarn dev`: Run in development mode
 - `yarn build`: Build in production mode
 - `yarn lint`: Run eslint
 
-[Icons](https://vue-feather-icons.egoist.sh/)
+### Deploy:
+- git commit, then
+- `deploy.sh`
 
-## License
+
+### Boilerplates
+Add boilerplate files to src/boilerplates/
+Edit src/components/HomeHeader.vue
+
+## License & Credits
 
 MIT &copy; [EGOIST](https://github.com/egoist)
-❤️ [Sponsor EGOIST](https://github.com/sponsors/egoist)
+
+Forked from ❤️ [Sponsor EGOIST](https://github.com/sponsors/egoist)
+
+[Icons](https://vue-feather-icons.egoist.sh/)

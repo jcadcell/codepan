@@ -12,7 +12,9 @@
         </el-button>
         <el-dropdown-menu slot="dropdown">
           <el-dropdown-item command="empty">Empty</el-dropdown-item>
-          <el-dropdown-item command="js">JavaScript</el-dropdown-item>
+          <el-dropdown-item command="js">Counter</el-dropdown-item>
+          <el-dropdown-item command="simon1">Simon</el-dropdown-item>
+          <!--
           <el-dropdown-item command="vue">Vue</el-dropdown-item>
           <el-dropdown-item command="vue-jsx">Vue JSX</el-dropdown-item>
           <el-dropdown-item command="react">React</el-dropdown-item>
@@ -20,6 +22,7 @@
           <el-dropdown-item command="rxjs">RxJS</el-dropdown-item>
           <el-dropdown-item command="rust">Rust</el-dropdown-item>
           <el-dropdown-item command="pixi">Pixi</el-dropdown-item>
+          -->
         </el-dropdown-menu>
       </el-dropdown>
       <!--
