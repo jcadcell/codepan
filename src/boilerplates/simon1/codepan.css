@@ -1,7 +1,5 @@
 html {
   background: #000428;
-  background: -webkit-linear-gradient(-45deg, #004e92, #000428);
-  background: linear-gradient(135deg, #004e92, #000428);
   height: 100%;
   font-size: 0;
 }
@@ -79,6 +77,8 @@ p {
   width: 48%;
   height: 48%;
   overflow: hidden;
+  opacity: 0.2;
+  transition: opacity 250ms;
 }
 
 .simon-button:focus {
@@ -129,4 +129,5 @@ p {
 /* Resources:
 https://www.freecodecamp.org/news/simon-javascript-game-tutorial/
 https://codepen.io/fitri/pen/NjbMRV
+https://javascript.info/css-animations
 */
