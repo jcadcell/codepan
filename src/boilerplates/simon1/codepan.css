@@ -1,3 +1,9 @@
+/* Resources:
+https://www.freecodecamp.org/news/simon-javascript-game-tutorial/
+https://codepen.io/fitri/pen/NjbMRV
+https://javascript.info/css-animations
+*/
+
 html {
   background: #000428;
   height: 100%;
@@ -125,9 +131,3 @@ p {
     top: 3px;
   }
 }
-
-/* Resources:
-https://www.freecodecamp.org/news/simon-javascript-game-tutorial/
-https://codepen.io/fitri/pen/NjbMRV
-https://javascript.info/css-animations
-*/
